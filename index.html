@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Temperature Gauge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/ bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ <center>
+ 
+<h1 style="background-color: red;">Current Temperature!</h1>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1905273/widgets/541605"></iframe>
+
+<h1 style="background-color: red;">Temperature Gauge!</h1>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1905273/widgets/537941"></iframe>
+
+<h1 style="background-color: red;">Average Temperature of last five days!</h1>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1905273/charts/1?average=10&bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature+Data&type=spline&xaxis=Date&yaxis=Temperature%28Celsius%29&yaxismax=60&yaxismin=20"></iframe>
+	</center>
+</body>
+</html>
